@@ -1,39 +1,38 @@
-# Predict-Future-Stock-Prices-Short-Term-TASK-2-
 # 📈 Stock Price Prediction Using Machine Learning
-#Submission By DHC-1768
-## 📌 Description
-This project uses historical stock market data from Yahoo Finance to predict the next day's closing price using machine learning regression models.
+
+## 🎯 Task Objective
+The objective of this project is to predict the next day’s stock closing price using historical stock market data and machine learning regression techniques.
+
 ---
-## 🎯 Objective
-- Fetch real stock data using yfinance API
-- Use Open, High, Low, Volume as features
-- Predict Close price using regression models
-- Compare actual vs predicted values visually
+
+## 📊 Dataset Used
+- Source: Yahoo Finance  
+- Accessed using: `yfinance` Python library  
+- Example Stocks: Apple (AAPL), Tesla (TSLA)  
+
+The dataset includes historical stock data such as Open, High, Low, Close, and Volume.
+
 ---
-## 📊 Stock Used
-- Apple (AAPL)
+
+## 🤖 Models Applied
+The following regression models were used:
+
+- Linear Regression  
+- Random Forest Regressor  
+
+These models predict the next-day closing price based on historical stock features.
+
 ---
-## 🛠️ Tools Used
-- Python
-- yfinance
-- Pandas
-- NumPy
-- Matplotlib
-- Scikit-learn
+
+## 📈 Key Results and Findings
+- Both models successfully learned patterns from historical stock data  
+- Random Forest generally provides more stable predictions than Linear Regression  
+- Actual vs predicted plots show reasonable trend alignment  
+- Stock prices are highly volatile, making prediction challenging  
+
 ---
-## ⚙️ Workflow
-1. Data collection from Yahoo Finance
-2. Data preprocessing
-3. Train-test split
-4. Model training (Linear Regression)
-5. Prediction
-6. Visualization
----
-## 📈 Output
-- Actual vs Predicted stock prices graph
-- Model trained on historical data
----
-## 🚀 How to Run
-```bash
-pip install yfinance pandas numpy matplotlib scikit-learn
-python model.py
+
+###Author
+Name : Abdul Wasay
+DHC ID 1768
+Course : AI/ML Internship Tasks
